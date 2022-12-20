@@ -1,0 +1,295 @@
+/*CONTEUDO PRINCIPAL*/
+main{
+    padding: 10px;
+  }
+  #conteudo{
+    display: flex;
+  }
+  /****DETALHAMENTO FRENTE ESTRATEGICA****/
+  .esquerda{
+      width: 50%;
+      height: 40vh;
+      border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+      padding: 15px;
+      background-color: white;
+  }
+  .conteudoEsquerda{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  .seletor select{
+      height: 45%;
+  }
+  .seletorFile{
+      width: 40%;
+      height: 100%;
+      display: flex;
+  }
+  .inputFile {
+      width: 100%;
+      display: flex;
+      align-content: center;
+  }
+  .inputFile button{
+      width: 90%;
+      height: 50%;
+      align-self: center;
+      margin: 5px;
+  }
+
+  .buscaDetalhamento{
+      width: 100%;
+      height: 20%;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  .inputDetalhamento{
+      width: 70%;
+      height: 50%;
+  }
+  .inputDetalhamento input{
+      width: 70%;
+      height: 80%;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 1px solid grey;
+  }
+  .tiposDetalhamentos{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 5px;
+  }
+  .nomesDetalhamentos{
+      width: 100%;
+      height: auto;
+  }
+  .nomesDetalhamentos tr td{
+      font-size: 14px;
+  }
+  .nomesDetalhamentos tr td span{
+      font-size: 20px;
+  }
+  .nomesDetalhamentos .cinza{
+      background-color: darkgray;
+  }
+
+  .paginacaoResultados .resultados{
+      width: 100%;
+      height: 100px;
+  }
+  .paginacaoResultados .paginacao{
+      height: 20px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .paginacao .setas{
+      display: flex;
+      width: 100%;
+      height: 20%;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .setas .numeracao{
+      width: 20px;
+      height: 20px;
+      background-color: rgb(42, 137, 160);
+      border-radius: 2px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+  }
+
+  /***CONTEUDO DIREITA***/
+  .ConteudoDireita{
+      width: 50%;
+      height: 80vh;
+      border: 1px solid rgb(198, 194, 194);
+      border-radius: 3px;
+      margin-left: 10PX;
+      background-color: white;
+      justify-content: center;
+      display: flex;
+
+  }
+  .conteudodireitadentro{
+      width: 95%;
+
+  }
+
+  .primeiraLinha{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .primeiraLinha select{
+      width: 33%;
+      height: 60%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  .primeiraLinha input{
+      width: 30%;
+      height: 65%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**SEGUNDA LINHA**/
+  .segundaLinha{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .segundaLinha select{
+      width: 32.2%;
+      height: 70%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**TERCEIRA LINHA**/
+  .terceiraLinha{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .terceiraLinha input{
+      width: 48%;
+      height: 70%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**QUARTA LINHA**/
+  .quartaLinha{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .quartaLinha textarea{
+     margin: 2px;
+     background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**QUINTA LINHA**/
+  .quintaLinha{
+      width: 100%;
+      height: 7%;
+      border-bottom: 2px solid black;
+  }
+  .quintaLinha h3{
+      padding-top: 5px;
+  }
+  /**SEXTA LINHA**/
+  .sextaLinha{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .sextaLinha input{
+      width: 32%;
+      height: 70%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**DECIMA LINHA**/
+  .decimaLinha{
+      width: 100%;
+      height: 55px;
+      border-bottom: 2px solid black;
+  }
+  /**DECIMA PRIMEIRA LINHA**/
+  .decimaPrimeira{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .decimaPrimeira input{
+      width: 32%;
+      height: 60%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  .decimaPrimeira button{
+      width: 32%;
+      height: 60%;
+      align-self: center;
+      background-color: rgb(240, 240, 240);
+      border-radius: 3px;
+      border: 0px;
+  }
+  /**DECIMA SEGUNDA**/
+  .decimaSegunda{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: rgb(236, 235, 235);
+  }
+  .decimaSegunda p span{
+      font-size: 18px;
+  }
+  /**DECIMA TERCEIRA LINHA**/
+  .decimaTerceira{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .decimaTerceira p{
+      color: rgb(81, 80, 80);
+  }
+  /**DECIMA QUARTA LINHA**/
+  .decimaQuarta{
+      width: 100%;
+      height: 7%;
+  }
+  .decimaQuarta .setasDireita{
+      display: flex;
+      justify-content: center;
+      height: auto;
+  }
+  .decimaQuarta .setasDireita p span{
+      font-size: 20px;
+  }
+  /**DECIMA QUINTA LINHA**/
+  .decimaQuinta{
+      width: 100%;
+      height: 7%;
+      display: flex;
+      justify-content: end;
+  }
+  .decimaQuinta button{
+      width: 20%;
+      height: 70%;
+      border: 0px;
+      cursor: pointer;
+      margin: 5px;
+  }

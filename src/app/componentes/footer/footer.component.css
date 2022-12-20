@@ -1,0 +1,10 @@
+/*FOOTER*/
+footer{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid rgb(198, 194, 194);
+    justify-content: center;
+    background-color: white;
+  }

@@ -1,0 +1,213 @@
+   /*****FRENTE ESTRATEGICA******/
+main{
+  padding: 10px;
+}
+#conteudo{
+	display: flex;
+}
+
+.busca{
+    width: 50%;
+    height: 80vh;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    padding: 15px;
+    background-color: white;
+}
+.tituloCiclo{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.tituloCiclo .cicloSelect{
+    width: 25%;
+}
+.tituloCiclo .cicloSelect p{
+    font-size: 18px;
+}
+.tituloCiclo .cicloSelect select{
+    width: 90%;
+    height: 50%;
+    border: 1px solid rgb(198, 194, 194);
+}
+h2{
+    font-size: 32px;
+}
+.busca .InputBuscaNome{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+.busca .InputBuscaNome input{
+    width: 75%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.busca .InputBuscaNome button{
+    width: 20%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.status{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgb(246, 245, 245);
+    border-radius: 4px;
+}
+.tabela{
+    overflow: auto;
+    height: 60%;
+}
+.nomeStatus{
+    width: 100%;
+}
+.nomeStatus tr td span{
+    font-size: 28px;
+}
+
+.paginacaoResultados .resultados{
+    width: 100%;
+    height: 100px;
+}
+.paginacaoResultados .paginacao{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginacao .setas{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setas .numeracao{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(42, 137, 160);
+    border-radius: 2px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.FrenteEstrategica{
+    width: 50%;
+    height: 200px;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    padding: 15px;
+    margin-left: 10px;
+    background-color: white;
+}
+.FrenteEstrategica h2{
+    font-size: 32px;
+}
+.InputUDN{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InputUDN select{
+    width: 45%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.InputUDN input{
+    width: 45%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.InputCiclo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InputCiclo select{
+    width: 45%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+.InputCiclo input{
+    width: 45%;
+    height: 70%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    padding-left: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    justify-content: right;
+    align-items: center;
+}
+.buttons .ButtonSalvar{
+    width: 20%;
+    height: 45%;
+}
+.buttons .ButtonSalvar button{
+    width: 90%;
+    height: 100%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buttons .ButtonNovo{
+    width: 20%;
+    height: 45%;
+}
+.buttons .ButtonNovo button{
+    width: 90%;
+    height: 100%;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 3px;
+    background-color: rgb(246, 245, 245);
+    font-size: 14px;
+    cursor: pointer;
+}

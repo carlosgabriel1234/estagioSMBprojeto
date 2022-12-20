@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(216, 60, 60);
+    display: flex;
+    justify-content: space-between;
+  }
+  .btnAbre{
+    color: white;
+    width: 40px;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+  }
+  .btnAbre img{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .iconesHeader{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 1%;
+
+  }
+  .iconesHeader .config img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .iconesHeader .perfil img{
+    width: 40px;
+    height: 40px;
+  }
+/*MENU*/
+#menuLateral{
+  background-color: white;
+	position: absolute;
+	z-index: 1;
+	overflow: hidden;
+ height: 90vh;
+  transition: left 0.5s;
+	width: 0px;
+  border-right: 1px solid rgb(198, 194, 194);
+}
+#menuLateral li span{
+	font-size: 40px;
+}
+#menuLateral ul{
+    list-style: none;
+}
+#menuLateral ul li{
+    line-height: 40px;
+}
+#menuLateral ul li a{
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+}
+#menuLateral ul li a:hover{
+    color: rgb(35, 138, 242);
+    transition: 0.5s;
+    font-weight: bold;
+}
